@@ -71,7 +71,7 @@
                                                             <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sae-Wv-Lig"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSf-h7-C7U" customClass="BinaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSf-h7-C7U" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="271.33333333333331" y="0.0" width="82.333333333333314" height="110"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -124,7 +124,7 @@
                                                             <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rlP-Kt-oLk"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vw8-GK-D4r" customClass="BinaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vw8-GK-D4r" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="271.33333333333331" y="0.0" width="82.333333333333314" height="110"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -177,7 +177,7 @@
                                                             <action selector="digitPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKJ-cf-Sdl"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Eg-c72" customClass="BinaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4w-Eg-c72" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="271.33333333333331" y="0.0" width="82.333333333333314" height="110.33333333333333"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -230,7 +230,7 @@
                                                             <action selector="pushOperand" destination="BYZ-38-t0r" eventType="touchUpInside" id="px5-MB-3XM"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS7-y7-snU" customClass="BinaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wS7-y7-snU" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="271.33333333333331" y="0.0" width="82.333333333333314" height="110"/>
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -247,7 +247,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LJP-zo-xEL">
                                                 <rect key="frame" x="0.0" y="504.33333333333326" width="353.66666666666669" height="110"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfR-cF-eCr" customClass="UnaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfR-cF-eCr" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="82.333333333333329" height="110"/>
                                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -259,7 +259,7 @@
                                                             <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ba-PL-Uvo"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiu-FL-h3U" customClass="UnaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiu-FL-h3U" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="90.333333333333314" y="0.0" width="82.666666666666686" height="110"/>
                                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -271,7 +271,7 @@
                                                             <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Btc-Rj-492"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW7-O7-whh" customClass="UnaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fW7-O7-whh" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="181" y="0.0" width="82.333333333333314" height="110"/>
                                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -283,7 +283,7 @@
                                                             <action selector="operationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BdQ-aO-mbH"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X00-5X-Ox6" customClass="UnaryButton" customModule="RPNCalc" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X00-5X-Ox6" customClass="NumberButton" customModule="RPNCalc" customModuleProvider="target">
                                                         <rect key="frame" x="271.33333333333331" y="0.0" width="82.333333333333314" height="110"/>
                                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

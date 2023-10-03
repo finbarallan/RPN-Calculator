@@ -93,4 +93,3 @@ struct CalcModel {
         return evaluateStack()
     }
 }
-

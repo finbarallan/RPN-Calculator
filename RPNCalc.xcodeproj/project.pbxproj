@@ -15,8 +15,6 @@
 		F54550A72AC5B39F0008CD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54550A52AC5B39F0008CD90 /* LaunchScreen.storyboard */; };
 		F551D0BC2AC5E3A8002D6CCE /* CalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551D0BB2AC5E3A8002D6CCE /* CalcModel.swift */; };
 		F551D0C02ACAB76B002D6CCE /* NumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551D0BF2ACAB76B002D6CCE /* NumberButton.swift */; };
-		F551D0C42ACAB8D7002D6CCE /* BinaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551D0C32ACAB8D7002D6CCE /* BinaryButton.swift */; };
-		F551D0C62ACAB8E3002D6CCE /* UnaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551D0C52ACAB8E3002D6CCE /* UnaryButton.swift */; };
 		F551D0C82ACAC420002D6CCE /* CalcLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551D0C72ACAC420002D6CCE /* CalcLabel.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +29,6 @@
 		F54550A82AC5B39F0008CD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F551D0BB2AC5E3A8002D6CCE /* CalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcModel.swift; sourceTree = "<group>"; };
 		F551D0BF2ACAB76B002D6CCE /* NumberButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberButton.swift; sourceTree = "<group>"; };
-		F551D0C32ACAB8D7002D6CCE /* BinaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryButton.swift; sourceTree = "<group>"; };
-		F551D0C52ACAB8E3002D6CCE /* UnaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnaryButton.swift; sourceTree = "<group>"; };
 		F551D0C72ACAC420002D6CCE /* CalcLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,8 +69,6 @@
 				F54550A02AC5B39F0008CD90 /* Main.storyboard */,
 				F54550A32AC5B39F0008CD90 /* Assets.xcassets */,
 				F551D0BF2ACAB76B002D6CCE /* NumberButton.swift */,
-				F551D0C32ACAB8D7002D6CCE /* BinaryButton.swift */,
-				F551D0C52ACAB8E3002D6CCE /* UnaryButton.swift */,
 				F551D0C72ACAC420002D6CCE /* CalcLabel.swift */,
 				F54550A52AC5B39F0008CD90 /* LaunchScreen.storyboard */,
 				F54550A82AC5B39F0008CD90 /* Info.plist */,
@@ -153,14 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F551D0C42ACAB8D7002D6CCE /* BinaryButton.swift in Sources */,
 				F545509F2AC5B39F0008CD90 /* CalcVC.swift in Sources */,
 				F545509B2AC5B39F0008CD90 /* AppDelegate.swift in Sources */,
 				F551D0BC2AC5E3A8002D6CCE /* CalcModel.swift in Sources */,
 				F551D0C02ACAB76B002D6CCE /* NumberButton.swift in Sources */,
 				F551D0C82ACAC420002D6CCE /* CalcLabel.swift in Sources */,
 				F545509D2AC5B39F0008CD90 /* SceneDelegate.swift in Sources */,
-				F551D0C62ACAB8E3002D6CCE /* UnaryButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
