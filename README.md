@@ -1,7 +1,7 @@
 # RPN Calculator
 Reverse Polish Notation calculator styled to reflect the design aesthetic of Apple calculator applications. The system architecture follows the Model-View-Controller (MVC) design pattern. The Model is instantiated lazily from the Controller, handling evaluation of the values and operations being pushed to the stack with two cases, for unary and binary operations, to recursively evaluate the stack.
 
-The Controller handles the logic for pressing of digits, inputting of values, and initiation of operations while the displayed value is dynamically updated using a computed property. The View has been styled with distinct classes, catering to various buttons and the display label to achieve a clean and user-friendly interface.
+The Controller handles the logic for pressing of digits, inputting of values, and initiation of operations while the displayed value is dynamically updated using a computed property. The View has been styled with distinct classes, catering to various buttons and the display label to achieve a clean and user-friendly interface. The operations available to the user are defined using enums while the state and behaviour are managed using structs. These data type implementations allow the functionality of the calculator to be expanded without compromising the error-resistant foundation of the application.
 
 <p style="text-align: center">
   <img src="./readme-files/1-opening.png" width="400" />
